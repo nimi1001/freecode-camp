@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="sur.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
+
+    <title>Survey form</title>
+    </head>
+ <body>
+     <header class="header">
+     <h1 id="title" class="text-center">SURVEY FORM</h1>
+     <p id="description">Thank You for taking the time to fill this form</p>
+     </header>
+     <form id="survey-form">
+       <div class="form-group">
+         <label id="name-label" for="name">Name</label>
+         <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+         <label id="email-label" for="email">Email</label>
+         <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required>
+        </div>
+      <div class="form-group">
+         <label id="number-label" for="number">Age</label>
+         <input type="number" name="age" id="number" min="9" max="99" class="form-control" placeholder="age" >
+      </div>
+         <div class="form-group">
+          <p>which option describe your current role?</p>
+         <select id="dropdown" name="role" class="form-control" required>
+             <option disabled selected value>Select your current role</option>
+             <option value="student">student</option>
+             <option value="employee">employee</option>
+             <option value="free lancer">free lancer</option>
+         </select>
+        </div>
+    <div class="form-group">
+    <p>Are you intrested in online class?</p>
+    <select id="dropdown" name="intrested" class="form-control" required>
+       <option disabled selected value>select your intrest</option>
+       <option value="yes">Yes</option>
+       <option value="No">NO</option>    
+    </select>
+    </div>
+         <div class="form-group">
+         <p>Are you intresting doing projects</p>
+             <label><input name="user-recomment" value="Definitely" type="radio" class="input-radio" checked>Definitely</label>
+             <label><input name="user-recomment" value="maybe" type="radio" class="input-radio">maybe</label>
+             <label><input name="user-recomment" value="No" type="radio" class="input-radio">NO</label>
+         </div>
+         
+      <div class="form-select">
+         <p>which course did you like most?</p>
+         <label><input value="front-end developer" type="checkbox" class="input-checkbox">Front-end developer</label>
+         <label><input value="back-end developer" type="checkbox" class="input-checkbox">back-end developer </label>
+         <label><input value="software developer" type="checkbox" class="input-checkbox">software developer </label>
+         <label><input value="machine learning" type="checkbox" class="input-checkbox">machine learning </label>
+         <label><input value="AWS" type="checkbox" class="input-checkbox">AWS</label>
+         <label><input value="DBMS" type="checkbox" class="input-checkbox">DBMS</label>
+         </div>
+      <div class="form-text">
+        <h3>Thank for your support!</h3>
+        <h5>Comments section</h5>
+        <textarea id="comments" class="input-textarea" placeholder="enter your comment here.....">
+            </textarea>
+    </div>
+      <div class="form-box">
+        <button type="submit" id="submit" class="submit-button">Submit</button>
+      </div>    
+   </form>
+     
+ </body>
+</html>
