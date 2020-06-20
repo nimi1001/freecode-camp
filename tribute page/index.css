@@ -1,0 +1,277 @@
+<style>
+#main{
+    margin:30px 8px 30px 8px;
+    padding:15px 15px 15px 15px;
+    border-radius:5px 5px 5px 5px;
+}
+body{
+    font-family:"monospace","sans-serif";
+    font-size:1.6em;
+    line-height:1.5;
+    text-align: center;
+    color:#333;
+    background-img:url(flag.jpg);
+    }
+html{
+    font-size:10px;
+    background-image:url(flag.jpg)
+}
+h1{
+    font-size:80px;
+    margin-left:10;
+    margin-bottom:50;
+    border-bottom: 10px;
+    background-color:;
+    border-bottom-style:double;
+    border-top-style: double;
+    outline-color: black;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    font-family:"Lucida Console", Monaco, monospace;
+    color:black;
+    border-width:inherit;
+}
+@media(max-width:460px){
+    h1{
+        font-size:80px;
+        line-height:1.2;
+    }
+    #main{
+        margin:0;
+    }
+}
+h2{
+    font-size:3.25rem;
+}
+img{
+    max-width:100%;
+    display:block;
+    height:auto;
+    margin: 0 auto;
+}
+#img-div{
+    background-image:url(flag.jpg);
+    padding:10px;
+    margin:0;}
+#main{
+    margin:30px 8px 30px 8px;
+    padding:15px 15px 15px 15px;
+    border-radius:5px 5px 5px 5px;
+}
+body{
+    font-family:"monospace","sans-serif";
+    font-size:1.6em;
+    line-height:1.5;
+    text-align: center;
+    color:#333;
+    background-img:url(flag.jpg);
+    }
+html{
+    font-size:10px;
+    background-image:url(flag.jpg)
+}
+h1{
+    font-size:80px;
+    margin-bottom:0;
+    border-bottom: 10px;
+    border-bottom-style:double;
+    border-top-style: double;
+    background-color:white;
+    outline-color: black;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    font-family:"Lucida Console", Monaco, monospace;
+    border-style:inherit;
+}
+@media(max-width:460px){
+    h1{
+        font-size:80px;
+        line-height:1.2;
+    }
+    #main{
+        margin:0;
+    }
+}
+h2{
+    font-size:3.25rem;
+}
+img{
+    max-width:100%;
+    display:block;
+    height:auto;
+    margin: 0 auto;
+     border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+}
+#img-div{
+    background-image:url(flag.jpg);
+    padding:10px;
+    margin:0;
+    max-width:100%;
+    
+}
+#img-caption{
+    margin:15px ;
+    font-size:30px;
+    color:white;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    font-family:"Lucida Console", Monaco, monospace;
+    background-color: forestgreen;
+    
+}
+@media(max-width:460px){
+    #img-caption{
+        font-size:1.4rem;
+    }
+}
+#headline{
+    margin:50px 0;
+    text-align:center;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    color:black;
+    font-size:30px;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+ul{
+    max-width:550 px;
+    margin:10px auto 50px auto;
+    text-align:left;
+    line-height:1.8;
+    background-color:lightgray;
+     border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    background-color:black;
+    color:white;
+    font-family:"Lucida Console", Monaco, monospace;
+    font-size:30px;
+    padding-left:250px;
+}
+li{
+    margin:16px 0;
+}
+p{
+    font-size:35px;
+    background-color:black;
+    font-style:normal;
+    color:white;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    font-family: "Lucida Console", Monaco, monospace;
+    
+
+}
+#last{
+    color:yellow;
+    border:
+    font-size:40px;
+    font-family:"Lucida Console", Monaco, monospace;
+}
+h3{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size:15px;
+    background-color:white;
+    color:black;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    
+}
+    
+}
+#img-caption{
+    background-color:forestgreen;
+
+    font-size:30px;
+    border-bottom-style:dott;
+    color:white;
+     border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    font-family:"Lucida Console", Monaco, monospace;
+    
+}
+@media(max-width:460px){
+    #img-caption{
+        font-size:1.4rem;
+    }
+}
+#headline{
+    margin:50px 0;
+    text-align:center;
+    background-color:yellow;
+      border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    color:black;
+    font-size:30px;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+ul{
+    max-width:550 px;
+    margin:10px auto 50px auto;
+    text-align:left;
+    line-height:1.8;
+    background-color:lightgray;
+     border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    background-color:black;
+    color:white;
+    font-family:"Lucida Console", Monaco, monospace;
+    font-size:30px;
+    padding-left:150px;
+}
+li{
+    margin:16px 0;
+}
+p{
+    font-size:35px;
+    background-color:black;
+    font-style:normal;
+    color:white;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    font-family: "Lucida Console", Monaco, monospace;
+
+}
+#last{
+    color:yellow;
+    border:
+    font-size:40px;
+    font-family:"Lucida Console", Monaco, monospace;
+}
+h3{
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size:15px;
+    background-color:white;
+    color:black;
+    border-bottom-right-radius:30px;
+    border-bottom-left-radius:30px;
+    border-top-left-radius:30px;
+    border-top-right-radius:30px;
+    
+}
+
+</style>
